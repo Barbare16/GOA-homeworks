@@ -3,7 +3,7 @@
 # მომხმარებელს შემოვატანინე თავისი სახელი და ეს ინფორმაცია შევინახე ცვლადში სახელად-Users_name
 Users_name = input('Please enter your name: ')
 # მომხმარებელს შემოვატანინე თავისი ასაკი და ეს ინფორმაცია შევინახე ცვლადში სახელად-Users_age
-Users_age = input('Please enter your name: ')
+Users_age = input('Please enter your age: ')
 # მომხმარებელა შემოვატანინე თავისი სიმაღლე და ეს ინფორმაცია შევინახე ცვლადში სახელად-Users_height
 Users_height = input('Please enter your height: ')
 
@@ -13,3 +13,4 @@ print(type(Users_name))
 print(type(Users_age))
 # ეხლა გავიგებ თუ რა ტიპის ინფორმაცია ინახება ცვლადში
 print(type(Users_height))
+# მართალია შეტანილი ინფორმაცია სტრინგი არაა მაგრამ კომპიუტერმა სტრინგად აღიქვა
