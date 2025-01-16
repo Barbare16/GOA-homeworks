@@ -1,65 +1,90 @@
+# გადაკეთება მინდოდა. ჯერ არ დამისრულებია მხოლოდ ნახევარია გაკეთეული
 from turtle import *
 
 width(5)
 
-speed(10)
+speed(100)
 
-color('green')
+bgcolor('deepskyblue')
 
-# ბალახი
+#სასახლის დაწყება.
+color('wheat')
 penup()
-goto(329,-150)
+goto(-180, -151)
 pendown()
-begin_fill()
 
-# ბალახის მოხაზვა
-left(180)
-forward(670)
+# სახლის მოხაზვა/ აშენება
+begin_fill()
+forward(300)
 left(90)
-forward(125)
+forward(100)
 left(90)
-forward(670)
+forward(300)
 left(90)
-forward(125)
+forward(100)
 end_fill()
 
-# 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+# აგურები
+color('tan')
+left(90)
+forward(300)
+right(270)
+forward(20)
+right(270)
+forward(40)
+left(90)
+forward(20)
+right(90)
+forward(40)
+right(90)
+forward(20)
+right(90)
+forward(40)
+right(180)
+forward(80)
+left(90)
+forward(20)
+right(90)
+forward(40)
+right(90)
+forward(20)
+right(90)
+forward(40)
+right(180)
+forward(80)
+left(90)
+forward(20)
+right(90)
+forward(40)
+right(90)
+forward(20)
+right(90)
+forward(40)
+right(180)
+forward(80)
+left(90)
+forward(20)
+right(90)
+forward(20)
+right(90)
+forward(20)
+right(90)
+forward(300)
+left(90)
+forward(20)
+right(270)
+forward(20)
+left(90)
+forward(20)
+right(90)
+forward(40)
+right(90)
+forward(20)
+right(90)
+forward(40)
+right(180)
+forward(80)
+left(90)
+forward(20)
 
 exitonclick()
