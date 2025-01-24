@@ -8,5 +8,5 @@ for i in range(5):
 for i in range(10 , 50):
     print(i)
 
-for i in range(5,15,2):
+for i in range(5,16,2):
     print(i)

@@ -1,4 +1,4 @@
-# გადაკეთება მინდოდა. ჯერ არ დამისრულებია მხოლოდ ნახევარია გაკეთეული
+# გადაკეთება მინდოდა. ჯერ არ დამისრულებია მხოლოდ ნახევარია გაკეთებული
 from turtle import *
 
 width(5)
@@ -85,6 +85,10 @@ forward(40)
 right(180)
 forward(80)
 left(90)
+forward(20)
+right(90)
+forward(40)
+right(90)
 forward(20)
 
 exitonclick()
