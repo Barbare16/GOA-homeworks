@@ -12,12 +12,12 @@ Grandma='sofo'
 Aunt='Marina'
 
 # ვპრინტავ დედაჩემის გვარს და ვუმატებ ცვლადს სადაც წერია მისი სახელი
-print('My mother is Chokheli '+Mother)
+print('My mother is '+Mother)
 # ვპრინტავ მამაჩემის გვარს და ვუმატებ ცვლადს სადაც წერია მისი სახელი
-print('My father is Shaverdashvili '+Father)
+print('My father is '+Father)
 # ვპრინტავ ბაბუაჩემის გვარს და ვუმატებ ცვლადს სადაც წერია მისი სახელი
-print('My grandpa is Chokheli '+Grandpa)
+print('My grandpa is '+Grandpa)
 # ვპრინტავ ბებიაჩემის გვარს და ვუმატებ ცვლადს სადაც წერია მისი სახელი
-print('My grandma is Kavtaradze '+Grandma)
+print('My grandma is '+Grandma)
 # ვპრინტავ დეიდაჩემის გვარს და ვუმატებ ცვლადს სადაც წერია მისი სახელი
-print('My aunt is Chokheli '+Aunt)
+print('My aunt is '+Aunt)
