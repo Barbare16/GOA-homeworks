@@ -1,0 +1,25 @@
+/*2) პირველ დავალების თითოეულ პარაგრაფის CSS-ის წესს, დაამატეთ background-color კუთვნილება რომლის მნიშვნელობა უნდა ჩაწეროთ hex code-ით ჩაწერეთ მომდევნო პარაგრაფის ტექსტის ფერი (ბოლო პარაგრაფის ფონის ფერად აიღეთ პირველი პარაგრაფის ტექსტის ფერი ანუ წითელი)*/
+
+#red{
+    background-color: #adff2f;
+}
+
+#green{
+    background-color: #0000ff;
+}
+
+#blue{
+    background-color: #ffc0cb;
+}
+
+#pink{
+    background-color: #fff000;
+}
+
+#yellow{
+    background-color: #00ffff;
+}
+
+#teal{
+    background-color: #ff0000;
+}

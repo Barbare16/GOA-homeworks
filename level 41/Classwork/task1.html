@@ -1,0 +1,42 @@
+<!--1) შექმენით 1 სათაური, 2 პარაგრაფი და ღილაკი. შემდეგ ყველა ელემენტი გასტილეთ CSS-ის სხვადასხვა წესებით, თითოეულში უნდა იყოს მინიმუმ 3 დეკლარაცია. შემდეგ HTML-ის კომენტარებით ახსენით როგორ იწერება CSS წესი-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* 1. head-ში ჩავწეროთ <style> თეგი
+           2. შემდეგ ინდენტაციით ვწერთ სელექტოტს (ელემენტის სახელს რომელზეც გვინდა რომ style-მ გავლენა იქონიოს)
+           3. სელექტორს ვუწერთ ფიგურულ ბრჩხილებს {}
+           4. შემდეგ ინდენტაციით ვწერთ კუთვნილებას (ანუ ელემენტის მახასიათებელს მაგალითად: ზომა, ფერი, ფონის ფერი და ასე სემდეგ..)
+           5. ორი წერტილი :
+           6. და ბოლოს მნიშვნელობას. (მაგალითად: red, 10px, center, 30% და ასე შემდეგ)ბოლოში კი წერტილ მძიმეს ;
+        */
+        p{
+            color:blueviolet;
+            background-color: black;
+            text-align: center;
+        }
+        p{
+            color:brown;
+            background-color: wheat;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <!-- 
+    1. გამხსნელ ტეგში ვწერთ style ატრიბუტს
+    2. შემდეგ ტოლობის ნიშანს =
+    3. ბრწყალები ავტომატურად დაეწერება ""
+    4. და ბრჭყალებში ვწერთ კუთვნილებას (ფერი, განლაგება, ზომა და ა.შ)
+    5. ორი წერტილი :
+    6. და მნიშვნელობა (purple, 40px, left..) და ბოლოში წერტილ მძიმე;   
+     -->
+    <h1 style="color: blue; background-color: aquamarine; text-align: right;">level 1 Heading</h1>
+    <p>p1</p>
+    <p>p2</p>
+    <button>Click me</button>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!--2) შექმენით div, რომელშიც ეწერება h2, p და button თქვენთვის სასურველი ტექსტებით. შემდეგ div-ის შეუცვალეთ text-align, color და background-color კუთვნილებები თქვენთვის სასურველი მნიშვნელობებით. შემდეგ დააკვირდით რა მოხდება (შვილი ელემენტებიც მიიღებენ მშობლისგან გადაცემულ სტილს) ახსენით ეს მოვლენა, განმარტეთ როგორ მუშაობს მემკვიდრეობა-->
+<!--
+(ბონუსი)
+დაამტეთ: div-ის გარეთ ერთი პარაგრაფი, შემდეგ შეუცვალეთ ტექტის ფერი მწვანედ, ხოლო div-ში მყოფი პარაგრაფის ტექტის ფერი უნდა იყოს იასამნისფერი
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            text-align: center;
+            color: blueviolet;
+            background-color: black;
+        }
+        p{
+            color: green;
+        }
+        div p{
+            color: blueviolet;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1> Heading 1</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque, dolor a omnis sint laudantium ratione. Dolores explicabo sequi ducimus consequatur! Aliquam eligendi nisi harum accusantium delectus voluptates nihil amet quas.</p>
+    <button>Click me</button>
+    <div>
+        <h2>Heading 2</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim tempore quam eaque nobis, fuga quasi deserunt corporis aliquid voluptates porro cumque, impedit incidunt doloribus ratione libero aspernatur maxime? Ex, voluptates.</p>
+        <button>Click me</button>
+    </div>
+    <!--
+    მართალია ჩვენ style მხოლოს div-ს გავუწერეთ მაგრამ ამან მასში მყოფ ელემენტებზეც იქონია გავლენა. ანუ მემკვიდრეობით გადაეცა. როცა ჩვენ რაიმე ელემენტს ვსტილავთ, ეს მასში ჩაშენებულ ელემენტზეც აისახება და გადაეცემა.
+    -->
+</body>
+</html>
